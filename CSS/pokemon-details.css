@@ -1,0 +1,16 @@
+.navbar-brand img {
+    width: 130px;
+}
+
+.navbar-toggler {
+    outline: none;
+    padding: 0;
+}
+
+.navbar-toggler img {
+    width: 35px;
+}
+
+body {
+    background-color: tomato;
+}

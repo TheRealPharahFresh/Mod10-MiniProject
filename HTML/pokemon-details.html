@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/pokemon-details.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/static/Pokemon-Emblem.jpg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic">
+                <img src="/static/pokemon__master_ball_by_brettpostscript_dge9y6x-fullview.jpg" alt="masterballtoggler">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarBasic">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/HTML/POKEHOMEPAGE.HTML">HomePage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/HTML/pokdex.html">Pokedex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="/HTML/pokemon-details.html">Pokemon Details</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center mt-5">
+        <h1 id="pokemon-name">Loading...</h1>
+        <img id="pokemon-image" src="" alt="" class="img-fluid" style="max-width: 200px;">
+        <h3>Abilities:</h3>
+        <ul id="pokemon-abilities"></ul>
+        <h3>Base Experience:</h3>
+        <p id="pokemon-experience"></p>
+    </div>
+
+    <script src="/static/pokemon-details.js" defer></script>
+</body>
+</html>
+
